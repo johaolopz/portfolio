@@ -15,8 +15,8 @@ const Sidebar = () => {
                     className="rounded-full"
                 />
             </div>
-            <h3 className="my-4 text-3xl font-medium tracking-wider">
-                <span>Johao</span>
+            <h3 className="my-4 text-3xl font-medium tracking-wider font-smooch">
+                <span className="text-green">Johao</span>
                 López
             </h3>
             <p className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full">
@@ -31,7 +31,7 @@ const Sidebar = () => {
                 Download Resume
             </a>
             {/* Social Icons */}
-            <div className="flex justify-around w-9/12 mx-auto my-5 text-green-500 md:w-full">
+            <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full">
                 <a href="">
                     <AiFillGithub className="w-8 h-8 cursor-pointer" />
                 </a>
@@ -52,8 +52,11 @@ const Sidebar = () => {
                 <p className="my-2">+593967667856 / +593959810663</p>
             </div>
             {/* Buttons */}
-            <button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green-400 to-blue-400">Email me</button>
-            <button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green-400 to-blue-400">Theme Mode</button>
+            <button
+                className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none" 
+                onClick={()=>window.open('mailto:johao.lopz.m@gmail.com')}>
+                Email me</button>
+            <button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400">Theme Mode</button>
         </div>
     )
 }
