@@ -3,6 +3,7 @@ import { services } from "../data"
 import ServiceCard from "../components/ServiceCard"
 
 const index = () => {
+  let divKey = 0
   return (
     <div className="flex flex-col flex-grow px-6 pt-1">
       <h5 className="my-3 font-medium">
@@ -20,10 +21,13 @@ const index = () => {
         <h6 className="my-3 text-xl font-bold tracking-wide">What I Offer</h6>
         <div className="grid gap-6 lg:grid-cols-2">
           {
-            services.map(service => (
-              <div className="bg-gray-200 rounded-lg lg:col-span-1">
+            services.map(service => {
+              divKey++
+              return (
+              <div key={divKey} className="bg-gray-200 rounded-lg lg:col-span-1">
                 <ServiceCard service={service} />
-              </div>))
+              </div>)
+            })
           }
         </div>
       </div>
