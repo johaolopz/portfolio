@@ -1,8 +1,12 @@
 import { RiComputerLine, RiCodeBoxFill } from "react-icons/ri"
-import { IService, ISkill } from "./type"
+import { IProject, IService, ISkill } from "./type"
 import { FaServer } from "react-icons/fa"
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai"
 import { MdDeveloperMode } from "react-icons/md"
+import weatherPic from "/images/WeatherApp/weatherApp_screen.jpg"
+import pokedexPic from "/images/Pokedex/pokedex_screen.jpg"
+import GesSaludPic from "/images/GesSalud/gesSalud_screen.jpg"
+import TodolistPic  from "/images/TodoList/todolist_screen.jpg"
 
 export const services:IService[] = [
     {
@@ -146,3 +150,43 @@ export const tools:ISkill[] = [
         level: "80%"
     }
     ]
+
+    export const project: IProject[] = [
+        {
+            name: "Weather App",
+            description: "This Web Application allows you to check the weather of all the cities of the world.",
+            image: weatherPic,
+            deployed_url: "#",
+            github_url: "https://github.com/johaolopz/Weather-App",
+            category: ["React/Redux"],
+            key_techs: ["React","Hooks","Html5","Css3","JavaScript","Fetch"]
+        },
+        {
+            name: "Pokedex",
+            description: "Single Page Application that allows you to consult information about each pokemon, their abilities and strength. At the same time it allows you to create a pokemon.",
+            image: pokedexPic,
+            deployed_url: "#",
+            github_url: "https://github.com/johaolopz/henry_pi",
+            category: ["NodeJs/ExpressJs"],
+            key_techs: ["React","Redux","NodeJs","ExpressJs","Axios"]
+        },
+        {
+            name: "ToDO List",
+            description: "Responsive Mini App to use a to-do list, with post it notes mode, handling states.",
+            image: TodolistPic,
+            deployed_url: "https://johaolopz.github.io/ToDoList/",
+            github_url: "https://github.com/johaolopz/ToDoList",
+            category: ["React/Redux"],
+            key_techs: ["React","Hooks","Redux","JavaScript","MaterialUi"]
+        },
+        {
+            name: "GesSalud",
+            description: "Web System for managing shifts and assigning specialists for the conKyF clinic in Argentina.",
+            image: GesSaludPic,
+            deployed_url: "https://ges-salud.vercel.app/",
+            github_url: "https://github.com/guillevidal/GesSalud",
+            category: ["PERN Stack"],
+            key_techs: ["PostgreSQL","ExpressJs","React","NodeJs","JWT","NodeMailer","Multer","Others"]
+        },
+
+]

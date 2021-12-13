@@ -11,3 +11,15 @@ export interface ISkill {
     level:string,
     Icon:IconType
 }
+
+export interface IProject {
+    name: string,
+    description: string,
+    image,
+    deployed_url: string,
+    github_url: string,
+    category: Category[],
+    key_techs: string[]
+}
+
+export type Category = "React/Redux"|"NodeJs/ExpressJs"|"PERN Stack";
