@@ -15,13 +15,14 @@ const Sidebar = () => {
 
     return (
         <div>
-            <div className="w-32 h-32 mx-auto mb-8 rounded-full">
                 <Image
                     src={profilePhoto}
                     alt="profile photo"
-                    className="rounded-full"
-                />
-            </div>
+                    height="170px"
+                    width="170px"
+                    className="mx-auto border rounded-full"
+                    layout="intrinsic"
+                    quality="100"                />
             <h3 className="my-4 text-3xl font-medium tracking-wider font-smooch">
                 <span className="text-green">Johao</span>
                 López

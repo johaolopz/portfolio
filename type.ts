@@ -22,4 +22,4 @@ export interface IProject {
     key_techs: string[]
 }
 
-export type Category = "React/Redux"|"NodeJs/ExpressJs"|"PERN Stack";
+export type Category = "React/Redux"|"NodeJs/ExpressJs"|"PERN_Stack";

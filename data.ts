@@ -185,7 +185,7 @@ export const tools:ISkill[] = [
             image: GesSaludPic,
             deployed_url: "https://ges-salud.vercel.app/",
             github_url: "https://github.com/guillevidal/GesSalud",
-            category: ["PERN Stack"],
+            category: ["PERN_Stack"],
             key_techs: ["PostgreSQL","ExpressJs","React","NodeJs","JWT","NodeMailer","Multer","Others"]
         },
 

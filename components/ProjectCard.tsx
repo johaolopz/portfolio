@@ -27,6 +27,9 @@ const ProjectCard:FunctionComponent<{
                 alt={name}
                 className='cursor-pointer h-12 w-12'
                 onClick={()=>setShowDetail(true)}
+                width="300"
+                height="150"
+                layout='responsive'
             />
             <p className='my-2 text-center'>{name}</p>
 
@@ -38,12 +41,15 @@ const ProjectCard:FunctionComponent<{
                         <Image
                             src={image}
                             alt={name}
+                            layout='responsive'
+                            height="150"
+                            width="300"   
                         />
                         <div className='flex justify-center my-4 space-x-3'>
-                            <a href={github_url} className='flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dar:bg-dark-200'>
+                            <a href={github_url} className='flex items-center px-4 py-2 space-x-3 text-lg bg-gray-300 dark:bg-dark-200'>
                                 <AiFillGithub/> <span>Github</span>
                             </a>
-                            <a href={deployed_url} className='flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dar:bg-dark-200'>
+                            <a href={deployed_url} className='flex items-center px-4 py-2 space-x-3 text-lg bg-gray-300 dark:bg-dark-200'>
                                 <AiFillProject/> <span>Project</span>
                             </a>
                         </div>
@@ -55,7 +61,7 @@ const ProjectCard:FunctionComponent<{
                             {
                                 key_techs.map((tech)=>(
                                     <span key={tech}
-                                      className='px-2 py-1 my-1 bg-gray-200 dark:bg-dark-200 rounded-sm'  
+                                      className='px-2 py-1 my-1 bg-gray-300 dark:bg-dark-200 rounded-sm'  
                                     >{tech}</span>
                                 ))
                             }
