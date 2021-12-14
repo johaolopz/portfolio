@@ -157,7 +157,7 @@ export const tools:ISkill[] = [
             name: "Weather App",
             description: "This Web Application allows you to check the weather of all the cities of the world.",
             image: weatherPic,
-            deployed_url: "#",
+            deployed_url: "https://johaolopz.github.io/Weather-App/",
             github_url: "https://github.com/johaolopz/Weather-App",
             category: ["React/Redux"],
             key_techs: ["React","Hooks","Html5","Css3","JavaScript","Fetch"]
