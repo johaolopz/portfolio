@@ -41,13 +41,13 @@ const Sidebar = () => {
             </a>
             {/* Social Icons */}
             <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full">
-                <a href="">
+                <a href="https://github.com/johaolopz">
                     <AiFillGithub className="w-8 h-8 cursor-pointer" />
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/in/danielopzm/">
                     <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
                 </a>
-                <a href="">
+                <a href="https://certificates.soyhenry.com/cert?id=91b86c25-bcda-4c7c-8370-b6afd526fc84">
                     <GiDiploma className="w-8 h-8 cursor-pointer" />
                 </a>
             </div>
