@@ -153,6 +153,7 @@ export const tools:ISkill[] = [
 
     export const project: IProject[] = [
         {
+            id:1,
             name: "Weather App",
             description: "This Web Application allows you to check the weather of all the cities of the world.",
             image: weatherPic,
@@ -162,6 +163,7 @@ export const tools:ISkill[] = [
             key_techs: ["React","Hooks","Html5","Css3","JavaScript","Fetch"]
         },
         {
+            id:2,
             name: "Pokedex",
             description: "Single Page Application that allows you to consult information about each pokemon, their abilities and strength. At the same time it allows you to create a pokemon.",
             image: pokedexPic,
@@ -171,6 +173,7 @@ export const tools:ISkill[] = [
             key_techs: ["React","Redux","NodeJs","ExpressJs","Axios"]
         },
         {
+            id:3,
             name: "ToDO List",
             description: "Responsive Mini App to use a to-do list, with post it notes mode, handling states.",
             image: TodolistPic,
@@ -180,6 +183,8 @@ export const tools:ISkill[] = [
             key_techs: ["React","Hooks","Redux","JavaScript","MaterialUi"]
         },
         {
+            
+            id:4,
             name: "GesSalud",
             description: "Web System for managing shifts and assigning specialists for the conKyF clinic in Argentina.",
             image: GesSaludPic,
