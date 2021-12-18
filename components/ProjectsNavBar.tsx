@@ -24,6 +24,7 @@ const ProjectsNavBar:FunctionComponent<{handlerFilterCategory:Function, active:s
             <NavItem value="All" {...props} />
             <NavItem value="React/Redux" {...props} />
             <NavItem value="NodeJs/ExpressJs" {...props} />
+            <NavItem value="MongoDB" {...props} />
             <NavItem value="PERN_Stack" {...props} />
         </div>
     )

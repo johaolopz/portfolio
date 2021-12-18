@@ -7,6 +7,7 @@ import weatherPic from "/images/WeatherApp/weatherApp_screen.jpg"
 import pokedexPic from "/images/Pokedex/pokedex_screen.jpg"
 import GesSaludPic from "/images/GesSalud/gesSalud_screen.jpg"
 import TodolistPic  from "/images/TodoList/todolist_screen.jpg"
+import ApiNodeJsPic  from "/images/ApiNodeJs/apiNodeJs_screen.png"
 
 export const services:IService[] = [
     {
@@ -193,5 +194,14 @@ export const tools:ISkill[] = [
             category: ["PERN_Stack"],
             key_techs: ["PostgreSQL","ExpressJs","React","NodeJs","JWT","NodeMailer","Multer","Others"]
         },
-
+        {
+            id:5,
+            name: "API RESTful",
+            description: "This is an API made with MongDB, ExpressJS and NodeJs to be consumed by the Frontend.",
+            image: ApiNodeJsPic,
+            deployed_url: "https://github.com/johaolopz/api_nodeJs_p1",
+            github_url: "https://github.com/johaolopz/api_nodeJs_p1",
+            category: ["MongoDB", "NodeJs/ExpressJs"],
+            key_techs: ["NodeJs","ExpressJs","MongoDB","Robo 3T","JavaScript","Postman"]
+        }
 ]
