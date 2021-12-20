@@ -168,7 +168,7 @@ export const tools:ISkill[] = [
             name: "Pokedex",
             description: "Single Page Application that allows you to consult information about each pokemon, their abilities and strength. At the same time it allows you to create a pokemon.",
             image: pokedexPic,
-            deployed_url: "https://github.com/johaolopz/henry_pi",
+            deployed_url: "https://pokedexjlopez.herokuapp.com/",
             github_url: "https://github.com/johaolopz/henry_pi",
             category: ["NodeJs/ExpressJs"],
             key_techs: ["React","Redux","NodeJs","ExpressJs","Axios"]
