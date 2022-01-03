@@ -199,7 +199,7 @@ export const tools:ISkill[] = [
             name: "API RESTful",
             description: "This is an API made with MongDB, ExpressJS and NodeJs to be consumed by the Frontend.",
             image: ApiNodeJsPic,
-            deployed_url: "https://github.com/johaolopz/api_nodeJs_p1",
+            deployed_url: "https://apinodejs1.herokuapp.com/persona",
             github_url: "https://github.com/johaolopz/api_nodeJs_p1",
             category: ["MongoDB", "NodeJs/ExpressJs"],
             key_techs: ["NodeJs","ExpressJs","MongoDB","Robo 3T","JavaScript","Postman"]
