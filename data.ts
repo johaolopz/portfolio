@@ -8,6 +8,7 @@ import pokedexPic from "/images/Pokedex/pokedex_screen.jpg"
 import GesSaludPic from "/images/GesSalud/gesSalud_screen.jpg"
 import TodolistPic  from "/images/TodoList/todolist_screen.jpg"
 import ApiNodeJsPic  from "/images/ApiNodeJs/apiNodeJs_screen.png"
+import BlogNextJsPic  from "/images/BlogNextJs/blogNextJs_screen.jpg"
 
 export const services:IService[] = [
     {
@@ -203,5 +204,15 @@ export const tools:ISkill[] = [
             github_url: "https://github.com/johaolopz/api_nodeJs_p1",
             category: ["MongoDB", "NodeJs/ExpressJs"],
             key_techs: ["NodeJs","ExpressJs","MongoDB","Robo 3T","JavaScript","Postman"]
+        },
+        {
+            id:6,
+            name: "Blog NextJs",
+            description: "Blog made with NextJS, which consumes resources from an external API and has dynamic routes.",
+            image: BlogNextJsPic,
+            deployed_url: "https://nextjs-project-vs1.vercel.app/",
+            github_url: "https://github.com/johaolopz/nextJsProjectVs1",
+            category: ["React/Redux"],
+            key_techs: ["NextJs","React","Hooks","JavaScript","Html5","Css3"]
         }
 ]
